@@ -84,4 +84,9 @@ body {
     left: 140px;
     padding: 30px;
   }
+  #user_name {
+    top: 48px;
+    font-size: 10px;
+  }
+}
 }
