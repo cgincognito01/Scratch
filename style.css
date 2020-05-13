@@ -44,10 +44,10 @@ body {
 
 #user_name {
     cursor: pointer;
-    position: absolute;
-    top: 25px;
-    left: 70vw;
-    font-size: 40px;
+    position: fixed;
+    top: 45px;
+    left: 85vw;
+    font-size: 20px;
     width:60px;
     color: #456557;
     margin-left: 20px;
