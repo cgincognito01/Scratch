@@ -6,6 +6,7 @@ body {
   background-color: #1a1a1a;
 }
 .navbar {
+  z-index: 1;
   position: fixed;
   margin: 0;
   padding: 10px;
@@ -17,7 +18,7 @@ body {
 
 .navbar ul {
   position:fixed;
-  left: 300px;
+  left: 250px;
   padding: 20px;
 }
 .navs {
@@ -28,7 +29,7 @@ body {
   cursor: none;
 }
 .logo {
-    display: inline-block;
+  display: inline-block;
   margin-top: -15px;
   padding: 4px;
   height: 130px;
@@ -105,9 +106,11 @@ body {
   border: 1px solid #1a1a1a;
   margin: 0;
   padding: 0;
-  height: 150vh;
+  height: 120vh;
 } 
-
+.content {
+  height: 20vh;
+}
 /** {
   border: 0;
   box-sizing: border-box;
@@ -132,7 +135,7 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 20vh;
 }
 .curtain, .sr, .toggle:before, .toggle:after {
   position: absolute;
@@ -208,4 +211,18 @@ form {
 }
 .marginTop {
   margin-top: 100vh;
+}
+
+.content {
+  margin-top: 50vh;
+}
+
+#heading {
+  position: absolute;
+  top: 30vh;
+  left: 100px;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 90px;
+  font-weight: 50;
+  color: white;
 }
