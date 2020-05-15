@@ -49,8 +49,9 @@ body {
     top: 45px;
     left: 85vw;
     font-size: 20px;
+    font-weight: bolder;
     /*width:60px;*/
-    color: #456557;
+    color: white;
     margin-left: 20px;
 }
 
@@ -109,7 +110,7 @@ body {
   height: 120vh;
 } 
 .content {
-  height: 20vh;
+  height: 2vh;
 }
 /** {
   border: 0;
@@ -214,7 +215,7 @@ form {
 }
 
 .content {
-  margin-top: 50vh;
+  margin-top: 20vh;
 }
 
 #heading {
@@ -224,5 +225,64 @@ form {
   font-family: 'Shadows Into Light', cursive;
   font-size: 90px;
   font-weight: 50;
+  line-height: 90px;
   color: white;
+  transition: 2s;
+}
+
+#heading:hover {
+  font-size: 110px;
+  transition: 2s;
+}
+#sub-heading {
+  position: absolute;
+  top: 65vh;
+  left: 100px;
+  font-family: 'Shadows Into Light', cursive;
+  font-size:40px;
+  line-height: 40px;
+  color: white;
+  transition: 1s;
+}
+
+#sub-heading:hover {
+  transition: 1s;
+  font-size: 50px;
+}
+
+#darkText {
+  text-align: center;
+}
+
+.btn_position {
+  position: absolute;
+  top: 85vh;
+  right: 10vh;
+  text-align: right;
+}
+
+.btn {
+  font-family: 'Shadows Into Light', cursive;
+  font-size:20px;
+  letter-spacing: 4px;
+  font-weight: bolder;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(246, 246, 245, 0.3); 
+  border-radius: 50px;
+  color: rgb(0,0,0,0.5);
+  border-left:5px solid white;
+  border-right:5px solid white;
+  /*border-top:2px dashed white;
+  border-bottom:2px dashed white;*/
+  transition: 1s;
+}
+
+.btn:hover {
+  transition: 1s;
+  font-size:20px;
+  border: 5px solid white;
+  color:grey;
+  letter-spacing: 15px;
+  background-color: rgb(0, 0, 0, 0.8); 
 }
